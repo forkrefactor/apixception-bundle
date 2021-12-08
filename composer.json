@@ -1,0 +1,19 @@
+{
+  "name": "forkrefactor/apixception-bundle",
+  "description": "Bundle to handle and render custom exceptions in API-Style projects using symfony kernel events.",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 | ^8.1",
+    "symfony/framework-bundle": "^4.4|^5.0|^6.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Forkrefactor\\Apixception\\": "src/"
+    }
+  },
+  "require-dev": {
+    "forkrefactor/coding-standard": "^1.0"
+  }
+}
